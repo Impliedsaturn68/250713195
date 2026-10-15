@@ -1,0 +1,27 @@
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(235, 166, 17);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    transition: all 0.2s linear;
+}
+/* style yang diatur pada .link adalah display, posisi tombol, posisi teks, lebar tombol, margin, padding, border, kelengkungan sudut border, kursor, warna latar belakang, jenis font, ketebalan font, dan transisi efek ketika mouse diarahkan ke tombol */
+
+.link a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+/* style yang diatur pada .link a adalah warna teks dan dekorasi teks untuk menghilangkan garis bawah link, dan warna teks link*/
+
+.link:hover {
+    box-shadow: 0 2px 3px 0.5px rgb(165, 165, 165);
+}
+/* style yang diatur pada .link:hover adalah warna shadow ketika mouse diarahkan ke tombol */
