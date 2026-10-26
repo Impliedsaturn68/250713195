@@ -1,25 +1,66 @@
 
 #Header{
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 300;
-    box-shadow: 0 4px 3px 0 rgb(36, 13, 239);
+    font-weight: 100;
     background-color: rgb(25, 162, 216);
     text-align: center;
-    
+    padding: 20px 10px;
+    margin-bottom: 20px;
 }
 
-#Form{
+#Form {
     background-color: rgb(159, 237, 247);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    width: 90%;
+    max-width: 850px;
+    margin: 0 auto 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
 }
-#nama{
-    font-weight: 200;
-    background-color: rgb(90, 233, 211);
+#Form table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    background-color: #ffffff;
 }
-#input{
-    font-weight: 200;
-    background-color: rgb(90, 233, 211);
+#Form td {
+    padding: 12px;
+    border: 1px solid #b5cbd0;
+    vertical-align: middle;
+}
+#Form td:first-child {
+    width: 30%;
+}
+#Form input[type="text"],
+#Form select,
+#Form textarea {
+    max-width: 100%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 6px;
+}
+#Form input[type="text"],
+#Form textarea {
+    width: 100%;
+}
+#Form input[type="file"] {
+    width: 60%;
+    padding: 10px 24px;
+    background-color: #087e96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+#Form input[type="submit"] {
+    padding: 10px 24px;
+    background-color: #087e96;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
 }
