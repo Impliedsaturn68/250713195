@@ -44,6 +44,12 @@
 #Form textarea {
     width: 100%;
 }
+#Form select{
+    width: 100%;
+}
+#Form option{
+    text-align: right;
+}
 #Form input[type="file"] {
     width: 60%;
     padding: 10px 24px;
