@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM Practice</title>
+</head>
+<body>
+
+    <h1>My JavaScript Website</h1>
+
+    <p id="message">This is the original message.</p>
+
+    <button id="changeButton">Change Message</button>
+
+    <script>
+        const message = document.getElementById("message");
+        const button = document.getElementById("changeButton");
+
+        button.addEventListener("click", function() {
+            message.textContent = "The message has changed!";
+        });
+    </script>
+
+</body>
+</html>
